@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Update # 3.1
+          Update # 3.1 {process.env.REACT_APP_CUSTOM_MESSAGE}
         </p>
         <a
           className="App-link"
